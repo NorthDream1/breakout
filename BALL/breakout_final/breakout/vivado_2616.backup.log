@@ -1,0 +1,513 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Sep  9 19:26:30 2024
+# Process ID: 2616
+# Current directory: C:/Users/86195/Desktop/break_final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29360 C:\Users\86195\Desktop\break_final\break_1.xpr
+# Log file: C:/Users/86195/Desktop/break_final/vivado.log
+# Journal file: C:/Users/86195/Desktop/break_final\vivado.jou
+# Running On: dddct, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16371 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86195/Desktop/break_final/break_1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24c/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24i/1.0/board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kd240_som/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1542.750 ; gain = 284.137
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a75tfgg484-2
+Top: breakout
+INFO: [Device 21-403] Loading part xc7a75tfgg484-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 29044
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2390.012 ; gain = 460.254
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'BrickHit_acq_4', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/breakout_four.v:28]
+INFO: [Synth 8-11241] undeclared symbol 'BrickHit_acq_3', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/breakout_three.v:28]
+INFO: [Synth 8-11241] undeclared symbol 'BrickHit_acq_2', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/breakout_two.v:30]
+WARNING: [Synth 8-10929] literal value 'h12345678 truncated to fit in 8 bits [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/new/rand.v:5]
+INFO: [Synth 8-11241] undeclared symbol 'BrickHit_now_2', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:179]
+INFO: [Synth 8-11241] undeclared symbol 'BrickHit_now_3', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:185]
+INFO: [Synth 8-11241] undeclared symbol 'BrickHit_now_4', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:192]
+INFO: [Synth 8-11241] undeclared symbol 'DrawBrick_2', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:230]
+INFO: [Synth 8-11241] undeclared symbol 'DrawBrick_3', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:240]
+INFO: [Synth 8-11241] unexit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  9 19:37:20 2024...
+86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:249]
+INFO: [Synth 8-11241] undeclared symbol 'douta_00', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:809]
+INFO: [Synth 8-11241] undeclared symbol 'douta_01', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:816]
+INFO: [Synth 8-11241] undeclared symbol 'douta_02', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:823]
+INFO: [Synth 8-11241] undeclared symbol 'douta_03', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:830]
+INFO: [Synth 8-11241] undeclared symbol 'douta_04', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:837]
+INFO: [Synth 8-11241] undeclared symbol 'douta_05', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:844]
+INFO: [Synth 8-11241] undeclared symbol 'douta_06', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:852]
+INFO: [Synth 8-11241] undeclared symbol 'douta_07', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:859]
+INFO: [Synth 8-11241] undeclared symbol 'douta_08', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:866]
+INFO: [Synth 8-11241] undeclared symbol 'douta_09', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:873]
+INFO: [Synth 8-11241] undeclared symbol 'douta_10', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:970]
+INFO: [Synth 8-11241] undeclared symbol 'douta_11', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:977]
+INFO: [Synth 8-11241] undeclared symbol 'douta_12', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:984]
+INFO: [Synth 8-11241] undeclared symbol 'douta_13', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:991]
+INFO: [Synth 8-11241] undeclared symbol 'douta_14', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:998]
+INFO: [Synth 8-11241] undeclared symbol 'douta_15', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1005]
+INFO: [Synth 8-11241] undeclared symbol 'douta_16', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1013]
+INFO: [Synth 8-11241] undeclared symbol 'douta_17', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1020]
+INFO: [Synth 8-11241] undeclared symbol 'douta_18', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1027]
+INFO: [Synth 8-11241] undeclared symbol 'douta_19', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1034]
+INFO: [Synth 8-11241] undeclared symbol 'douta_20', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1130]
+INFO: [Synth 8-11241] undeclared symbol 'douta_21', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1137]
+INFO: [Synth 8-11241] undeclared symbol 'douta_22', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1144]
+INFO: [Synth 8-11241] undeclared symbol 'douta_23', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1151]
+INFO: [Synth 8-11241] undeclared symbol 'douta_24', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1158]
+INFO: [Synth 8-11241] undeclared symbol 'douta_25', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1165]
+INFO: [Synth 8-11241] undeclared symbol 'douta_26', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1173]
+INFO: [Synth 8-11241] undeclared symbol 'douta_27', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1180]
+INFO: [Synth 8-11241] undeclared symbol 'douta_28', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1187]
+INFO: [Synth 8-11241] undeclared symbol 'douta_29', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1194]
+INFO: [Synth 8-11241] undeclared symbol 'douta_30', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1290]
+INFO: [Synth 8-11241] undeclared symbol 'douta_31', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1297]
+INFO: [Synth 8-11241] undeclared symbol 'douta_32', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1304]
+INFO: [Synth 8-11241] undeclared symbol 'douta_33', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1311]
+INFO: [Synth 8-11241] undeclared symbol 'douta_34', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1318]
+INFO: [Synth 8-11241] undeclared symbol 'douta_35', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1325]
+INFO: [Synth 8-11241] undeclared symbol 'douta_36', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1333]
+INFO: [Synth 8-11241] undeclared symbol 'douta_37', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1340]
+INFO: [Synth 8-11241] undeclared symbol 'douta_38', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1347]
+INFO: [Synth 8-11241] undeclared symbol 'douta_39', assumed default net type 'wire' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1354]
+INFO: [Synth 8-6157] synthesizing module 'breakout' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/out.v:1]
+INFO: [Synth 8-6157] synthesizing module 'breakout_videogen' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:3]
+INFO: [Synth 8-6157] synthesizing module 'CustomClock' [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/CustomClock_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'CustomClock' (0#1) [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/CustomClock_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'breakout_playfield' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/fieldplay.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'breakout_playfield' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/fieldplay.v:2]
+WARNING: [Synth 8-689] width (10) of port connection 'CounterY' does not match port width (9) of module 'breakout_playfield' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:201]
+INFO: [Synth 8-6157] synthesizing module 'breakout_two' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/breakout_two.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'breakout_two' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/breakout_two.v:1]
+WARNING: [Synth 8-689] width (10) of port connection 'CounterY' does not match port width (9) of module 'breakout_two' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:224]
+INFO: [Synth 8-6157] synthesizing module 'breakout_three' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/breakout_three.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'breakout_three' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/breakout_three.v:1]
+WARNING: [Synth 8-689] width (10) of port connection 'CounterY' does not match port width (9) of module 'breakout_three' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:236]
+INFO: [Synth 8-6157] synthesizing module 'breakout_four' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/breakout_four.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'breakout_four' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/breakout_four.v:1]
+WARNING: [Synth 8-689] width (10) of port connection 'CounterY' does not match port width (9) of module 'breakout_four' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:246]
+WARNING: [Synth 8-689] width (10) of port connection 'CounterY' does not match port width (9) of module 'breakout_playfield' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:261]
+WARNING: [Synth 8-7071] port 'ballX' of module 'breakout_playfield' is unconnected for instance 'game1' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:255]
+WARNING: [Synth 8-7071] port 'ballY' of module 'breakout_playfield' is unconnected for instance 'game1' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:255]
+WARNING: [Synth 8-7071] port 'BrickHit_now_2' of module 'breakout_playfield' is unconnected for instance 'game1' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:255]
+WARNING: [Synth 8-7071] port 'BrickHit_now_3' of module 'breakout_playfield' is unconnected for instance 'game1' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:255]
+WARNING: [Synth 8-7071] port 'BrickHit_now_4' of module 'breakout_playfield' is unconnected for instance 'game1' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:255]
+WARNING: [Synth 8-7071] port 'DrawBall' of module 'breakout_playfield' is unconnected for instance 'game1' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:255]
+WARNING: [Synth 8-7071] port 'BrickHit_acq' of module 'breakout_playfield' is unconnected for instance 'game1' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:255]
+WARNING: [Synth 8-7071] port 'Paddlelen' of module 'breakout_playfield' is unconnected for instance 'game1' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:255]
+WARNING: [Synth 8-7023] instance 'game1' of module 'breakout_playfield' has 21 connections declared, but only 13 given [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:255]
+WARNING: [Synth 8-689] width (10) of port connection 'CounterY' does not match port width (9) of module 'breakout_playfield' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:278]
+WARNING: [Synth 8-7071] port 'ballX' of module 'breakout_playfield' is unconnected for instance 'game2' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:272]
+WARNING: [Synth 8-7071] port 'ballY' of module 'breakout_playfield' is unconnected for instance 'game2' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:272]
+WARNING: [Synth 8-7071] port 'BrickHit_now_2' of module 'breakout_playfield' is unconnected for instance 'game2' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:272]
+WARNING: [Synth 8-7071] port 'BrickHit_now_3' of module 'breakout_playfield' is unconnected for instance 'game2' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:272]
+WARNING: [Synth 8-7071] port 'BrickHit_now_4' of module 'breakout_playfield' is unconnected for instance 'game2' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:272]
+WARNING: [Synth 8-7071] port 'DrawBall' of module 'breakout_playfield' is unconnected for instance 'game2' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:272]
+WARNING: [Synth 8-7071] port 'BrickHit_acq' of module 'breakout_playfield' is unconnected for instance 'game2' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:272]
+WARNING: [Synth 8-7071] port 'Paddlelen' of module 'breakout_playfield' is unconnected for instance 'game2' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:272]
+WARNING: [Synth 8-7023] instance 'game2' of module 'breakout_playfield' has 21 connections declared, but only 13 given [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:272]
+INFO: [Synth 8-6157] synthesizing module 'beep' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/new/beep.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'beep' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/new/beep.v:1]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (0#1) [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_00' [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_00_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_00' (0#1) [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_00_stub.v:6]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_00' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:806]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (0#1) [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_1_stub.v:6]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_1' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:813]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_2' [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_2' (0#1) [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_2_stub.v:6]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_2' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:820]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_3' [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_3' (0#1) [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_3_stub.v:6]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_3' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:827]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_4' [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_4' (0#1) [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_4_stub.v:6]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_4' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:834]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_5' [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_5' (0#1) [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_5_stub.v:6]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_5' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:841]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_6' [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_6_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_6' (0#1) [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_6_stub.v:6]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_6' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:849]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_7' [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_7_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_7' (0#1) [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_7_stub.v:6]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_7' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:856]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_8' [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_8_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_8' (0#1) [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_8_stub.v:6]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_8' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:863]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_9' [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_9_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_9' (0#1) [C:/Users/86195/Desktop/break_final/.Xil/Vivado-2616-dddct/realtime/blk_mem_gen_9_stub.v:6]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_9' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:870]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_00' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:967]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_1' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:974]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_2' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:981]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_3' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:988]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_4' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:995]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_5' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1002]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_6' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1010]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_7' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1017]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_8' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1024]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_9' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1031]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_00' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1127]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_1' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1134]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_2' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1141]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_3' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1148]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_4' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1155]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_5' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1162]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_6' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1170]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_7' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1177]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_8' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1184]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_9' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1191]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_00' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1287]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_1' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1294]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_2' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1301]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_3' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1308]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_4' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1315]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_5' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1322]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_6' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1330]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_7' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1337]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_8' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1344]
+WARNING: [Synth 8-689] width (17) of port connection 'addra' does not match port width (14) of module 'blk_mem_gen_9' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:1351]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_ctrl' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/hdmi/hdmi_ctrl.v:2]
+INFO: [Synth 8-6157] synthesizing module 'encode' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/hdmi/encode.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'encode' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/hdmi/encode.v:11]
+INFO: [Synth 8-6157] synthesizing module 'par_to_ser' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/hdmi/par_to_ser.v:10]
+INFO: [Synth 8-6157] synthesizing module 'ODDR' [G:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:96703]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'ODDR' (0#1) [G:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:96703]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [G:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:93073]
+	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (0#1) [G:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:93073]
+INFO: [Synth 8-6155] done synthesizing module 'par_to_ser' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/hdmi/par_to_ser.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_ctrl' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/hdmi/hdmi_ctrl.v:2]
+INFO: [Synth 8-6157] synthesizing module 'led_8' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/new/led_8.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'led_8' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/new/led_8.v:23]
+INFO: [Synth 8-6157] synthesizing module 'rand' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/new/rand.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'rand' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/new/rand.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'breakout_videogen' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:3]
+INFO: [Synth 8-6157] synthesizing module 'key_filter' [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/verilog/key_filter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'key_filter' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/verilog/key_filter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'breakout' (0#1) [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/out.v:1]
+WARNING: [Synth 8-6014] Unused sequential element BrickHit_nowR_2_reg was removed.  [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/breakout_two.v:28]
+WARNING: [Synth 8-6014] Unused sequential element BrickHit_nowR_3_reg was removed.  [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/breakout_three.v:26]
+WARNING: [Synth 8-6014] Unused sequential element BrickHit_nowR_4_reg was removed.  [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/breakout_four.v:26]
+WARNING: [Synth 8-6014] Unused sequential element BrickHit_reg was removed.  [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:401]
+WARNING: [Synth 8-6014] Unused sequential element Collision_reg was removed.  [C:/Users/86195/Desktop/break_final/break_1.srcs/sources_1/imports/FPGA-Breakout-Game-main/videogen.v:423]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2500.109 ; gain = 570.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2500.109 ; gain = 570.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2500.109 ; gain = 570.352
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/CustomClock/CustomClock.dcp' for cell 'myVideoGen/mygate'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'myVideoGen/bram'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/blk_mem_gen_00/blk_mem_gen_00.dcp' for cell 'myVideoGen/bram_00'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.dcp' for cell 'myVideoGen/bram_01'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2.dcp' for cell 'myVideoGen/bram_02'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/blk_mem_gen_3/blk_mem_gen_3.dcp' for cell 'myVideoGen/bram_03'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/blk_mem_gen_4/blk_mem_gen_4.dcp' for cell 'myVideoGen/bram_04'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/blk_mem_gen_5/blk_mem_gen_5.dcp' for cell 'myVideoGen/bram_05'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/blk_mem_gen_6/blk_mem_gen_6.dcp' for cell 'myVideoGen/bram_06'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/blk_mem_gen_7/blk_mem_gen_7.dcp' for cell 'myVideoGen/bram_07'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/blk_mem_gen_8/blk_mem_gen_8.dcp' for cell 'myVideoGen/bram_08'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/blk_mem_gen_9/blk_mem_gen_9.dcp' for cell 'myVideoGen/bram_09'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.154 . Memory (MB): peak = 2500.109 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/CustomClock/CustomClock_board.xdc] for cell 'myVideoGen/mygate/inst'
+Finished Parsing XDC File [c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/CustomClock/CustomClock_board.xdc] for cell 'myVideoGen/mygate/inst'
+Parsing XDC File [c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/CustomClock/CustomClock.xdc] for cell 'myVideoGen/mygate/inst'
+Finished Parsing XDC File [c:/Users/86195/Desktop/break_final/break_1.gen/sources_1/ip/CustomClock/CustomClock.xdc] for cell 'myVideoGen/mygate/inst'
+Parsing XDC File [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc]
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:1]
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:2]
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:3]
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:4]
+WARNING: [Vivado 12-584] No ports matched 'VGA_B'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:6]
+WARNING: [Vivado 12-584] No ports matched 'VGA_G'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:7]
+WARNING: [Vivado 12-584] No ports matched 'VGA_HS'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:8]
+WARNING: [Vivado 12-584] No ports matched 'VGA_R'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:9]
+WARNING: [Vivado 12-584] No ports matched 'VGA_VS'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'VGA_HS'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:12]
+WARNING: [Vivado 12-584] No ports matched 'VGA_VS'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:13]
+WARNING: [Vivado 12-584] No ports matched 'VGA_B'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:14]
+WARNING: [Vivado 12-584] No ports matched 'VGA_G'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:15]
+WARNING: [Vivado 12-584] No ports matched 'VGA_R'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:16]
+WARNING: [Vivado 12-584] No ports matched 'ddc_scl'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'ddc_sda'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'ddc_scl'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'ddc_sda'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'attack'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:88]
+WARNING: [Vivado 12-584] No ports matched 'attack'. [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc:89]
+Finished Parsing XDC File [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/86195/Desktop/break_final/break_1.srcs/constrs_1/new/TET.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/breakout_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2603.059 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2684.637 ; gain = 754.879
+124 Infos, 91 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 2684.637 ; gain = 1087.605
+set_property IOSTANDARD LVCMOS33 [get_ports [list score]]
+place_ports score R19
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon Sep  9 19:28:43 2024] Launched impl_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+****** Xilinx hw_server v2023.2
+  **** Build date : Oct 13 2023 at 21:31:40
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 10 2023-12:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2735.137 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/breakout.bit} [get_hw_devices xc7a75t_0]
+current_hw_device [get_hw_devices xc7a75t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a75t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a75t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a75t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a75t_0]
+set_property PROGRAM.FILE {C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/breakout.bit} [get_hw_devices xc7a75t_0]
+program_hw_devices [get_hw_devices xc7a75t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a75t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a75t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/86195/Desktop/break_final/break_1.srcs/utils_1/imports/synth_1/breakout.dcp with file C:/Users/86195/Desktop/break_final/break_1.runs/synth_1/breakout.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon Sep  9 20:00:30 2024] Launched synth_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/synth_1/runme.log
+[Mon Sep  9 20:00:30 2024] Launched impl_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtools 27-1434] Device xc7a75t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a75t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a75t_0]
+set_property PROGRAM.FILE {C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/breakout.bit} [get_hw_devices xc7a75t_0]
+program_hw_devices [get_hw_devices xc7a75t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a75t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a75t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/86195/Desktop/break_final/break_1.srcs/utils_1/imports/synth_1/breakout.dcp with file C:/Users/86195/Desktop/break_final/break_1.runs/synth_1/breakout.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon Sep  9 20:34:54 2024] Launched synth_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/synth_1/runme.log
+[Mon Sep  9 20:34:54 2024] Launched impl_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/86195/Desktop/break_final/break_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon Sep  9 20:36:29 2024] Launched synth_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/synth_1/runme.log
+[Mon Sep  9 20:36:29 2024] Launched impl_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtools 27-1434] Device xc7a75t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a75t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a75t_0]
+set_property PROGRAM.FILE {C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/breakout.bit} [get_hw_devices xc7a75t_0]
+program_hw_devices [get_hw_devices xc7a75t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a75t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a75t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/86195/Desktop/break_final/break_1.srcs/utils_1/imports/synth_1/breakout.dcp with file C:/Users/86195/Desktop/break_final/break_1.runs/synth_1/breakout.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon Sep  9 20:46:49 2024] Launched synth_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/synth_1/runme.log
+[Mon Sep  9 20:46:49 2024] Launched impl_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtools 27-1434] Device xc7a75t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a75t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a75t_0]
+set_property PROGRAM.FILE {C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/breakout.bit} [get_hw_devices xc7a75t_0]
+program_hw_devices [get_hw_devices xc7a75t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a75t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a75t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/86195/Desktop/break_final/break_1.srcs/utils_1/imports/synth_1/breakout.dcp with file C:/Users/86195/Desktop/break_final/break_1.runs/synth_1/breakout.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon Sep  9 21:06:03 2024] Launched synth_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/synth_1/runme.log
+[Mon Sep  9 21:06:03 2024] Launched impl_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtools 27-1434] Device xc7a75t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a75t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a75t_0]
+set_property PROGRAM.FILE {C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/breakout.bit} [get_hw_devices xc7a75t_0]
+program_hw_devices [get_hw_devices xc7a75t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a75t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a75t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/86195/Desktop/break_final/break_1.srcs/utils_1/imports/synth_1/breakout.dcp with file C:/Users/86195/Desktop/break_final/break_1.runs/synth_1/breakout.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Mon Sep  9 21:19:36 2024] Launched synth_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/synth_1/runme.log
+[Mon Sep  9 21:19:36 2024] Launched impl_1...
+Run output will be captured here: C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtools 27-1434] Device xc7a75t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a75t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a75t_0]
+set_property PROGRAM.FILE {C:/Users/86195/Desktop/break_final/break_1.runs/impl_1/breakout.bit} [get_hw_devices xc7a75t_0]
+program_hw_devices [get_hw_devices xc7a75t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a75t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a75t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  9 21:48:11 2024...

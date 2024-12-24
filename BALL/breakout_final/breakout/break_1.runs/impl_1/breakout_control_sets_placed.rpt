@@ -1,0 +1,116 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Tue Sep 10 11:03:32 2024
+| Host         : LAPTOOP-DREAM running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file breakout_control_sets_placed.rpt
+| Design       : breakout
+| Device       : xc7a75t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    38 |
+|    Minimum number of control sets                        |    38 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   175 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    38 |
+| >= 0 to < 4        |     5 |
+| >= 4 to < 6        |    10 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     4 |
+| >= 10 to < 12      |     8 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    10 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            6264 |         2690 |
+| No           | No                    | Yes                    |             122 |           48 |
+| No           | Yes                   | No                     |              80 |           30 |
+| Yes          | No                    | No                     |              22 |            7 |
+| Yes          | No                    | Yes                    |              96 |           29 |
+| Yes          | Yes                   | No                     |              89 |           32 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------+------------------------------------+---------------------------------------+------------------+----------------+--------------+
+|            Clock Signal            |            Enable Signal           |            Set/Reset Signal           | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------------+------------------------------------+---------------------------------------+------------------+----------------+--------------+
+|  myVideoGen/douta_0_reg[0]_i_2_n_0 |                                    |                                       |                1 |              1 |         1.00 |
+|  myVideoGen/douta_1_reg[0]_i_2_n_0 |                                    |                                       |                1 |              1 |         1.00 |
+|  myVideoGen/douta_2_reg[0]_i_2_n_0 |                                    |                                       |                1 |              1 |         1.00 |
+|  myVideoGen/douta_3_reg[0]_i_2_n_0 |                                    |                                       |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                     | myVideoGen/add_cnt_addr            |                                       |                1 |              2 |         2.00 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/game/E[0]               | myVideoGen/game/res                   |                1 |              4 |         4.00 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/game/dig0_reg_reg[1][0] | myVideoGen/game/res                   |                1 |              4 |         4.00 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/dig3R[3]_i_1_n_0        | myVideoGen/dig1R[3]_i_1_n_0           |                2 |              4 |         2.00 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/dig0R[3]_i_1_n_0        | myVideoGen/dig1R[3]_i_1_n_0           |                1 |              4 |         4.00 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/dig2R[3]_i_1_n_0        | myVideoGen/dig1R[3]_i_1_n_0           |                1 |              4 |         4.00 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/dig1R[3]_i_2_n_0        | myVideoGen/dig1R[3]_i_1_n_0           |                2 |              4 |         2.00 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/game/dig1_reg_reg[2][0] | myVideoGen/game/res                   |                1 |              4 |         4.00 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/MoveX[8]_i_2_n_0        | myVideoGen/MoveX[8]_i_1_n_0           |                3 |              5 |         1.67 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/MoveX[9]_i_1_n_0        | myVideoGen/game/res                   |                2 |              5 |         2.50 |
+|  myVideoGen/mygate/inst/clk_out2   |                                    | myVideoGen/U3/par_to_ser_inst3/p_4_in |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG                     |                                    |                                       |                6 |              8 |         1.33 |
+|  clk_IBUF_BUFG                     |                                    | U1/cnt_20ms[15]_i_1_n_0               |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                     |                                    | U2/cnt_20ms[15]_i_1__0_n_0            |                3 |              8 |         2.67 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/ballX                   | myVideoGen/game/res                   |                3 |              9 |         3.00 |
+|  myVideoGen/p_1_in__0              | myVideoGen/padd0                   | myVideoGen/game/res                   |                3 |             10 |         3.33 |
+|  myVideoGen/mygate/inst/clk_out1   |                                    | myVideoGen/BrickHit_count[9]_i_1_n_0  |                3 |             10 |         3.33 |
+|  myVideoGen/mygate/inst/clk_out1   |                                    | myVideoGen/CounterX[9]_i_1_n_0        |                7 |             10 |         1.43 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/CounterX[9]_i_1_n_0     |                                       |                3 |             10 |         3.33 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/ballX[9]_i_1_n_0        |                                       |                3 |             10 |         3.33 |
+|  clk_IBUF_BUFG                     |                                    | U1/cnt_20ms[19]_i_1_n_0               |                4 |             11 |         2.75 |
+|  clk_IBUF_BUFG                     |                                    | U2/cnt_20ms[19]_i_1__0_n_0            |                4 |             11 |         2.75 |
+|  clk_IBUF_BUFG                     | myVideoGen/B/cnt_500ms[10]_i_1_n_0 | myVideoGen/B/clear                    |                4 |             11 |         2.75 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/digR0                   | myVideoGen/dig1R[3]_i_1_n_0           |                7 |             14 |         2.00 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/add_cnt_addr            | myVideoGen/B/clear                    |                5 |             17 |         3.40 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/p_15_in                 | myVideoGen/B/clear                    |                5 |             17 |         3.40 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/p_14_in                 | myVideoGen/B/clear                    |                5 |             17 |         3.40 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/p_19_in                 | myVideoGen/B/clear                    |                5 |             17 |         3.40 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/p_17_in                 | myVideoGen/B/clear                    |                5 |             17 |         3.40 |
+|  myVideoGen/mygate/inst/clk_out1   | myVideoGen/game/dig3_next1         | myVideoGen/game/res                   |                5 |             18 |         3.60 |
+|  myVideoGen/mygate/inst/clk_out2   |                                    |                                       |                7 |             45 |         6.43 |
+|  myVideoGen/mygate/inst/clk_out1   |                                    | myVideoGen/B/clear                    |               22 |             46 |         2.09 |
+|  clk_IBUF_BUFG                     |                                    | myVideoGen/B/clear                    |               31 |             93 |         3.00 |
+|  myVideoGen/mygate/inst/clk_out1   |                                    |                                       |             2673 |           6216 |         2.33 |
++------------------------------------+------------------------------------+---------------------------------------+------------------+----------------+--------------+
+
+
